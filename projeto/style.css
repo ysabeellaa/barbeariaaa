@@ -1,0 +1,185 @@
+*{
+    margin:0;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    
+}
+nav ul li a{
+    font-weight:700;
+    color:white;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 16px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+/* body{
+    font-family: 'Montserrat', sans-serif;
+} */
+
+.ancora:hover{
+    color:rgb(186, 179, 179);
+    transition: .3;
+    cursor: pointer;
+}
+
+.header{
+    background: rgba(1, 11, 21, 0.627);
+    position:fixed;
+    width: 100%;
+}
+
+.banner{
+    width: 100%;
+    display: block;
+}
+.logo{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+#texto{
+    font-size: 20px;
+    
+}
+
+
+.texto-sobre h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    font-size: 28px;
+    margin: 8% 0 3% 0;
+   
+}
+ .texto-sobre h2:after{
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 50px;
+    background: #883f35;
+    top: 100%;
+    left: 0;
+    margin-top: 10px;
+} 
+
+.texto-sobre p{
+    font-size: 30px;
+    width: 80%;
+ 
+ 
+}
+
+
+.beneficios h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    font-size: 28px;
+    margin: 8% 0 3% 0;
+}
+.beneficios h2:after{
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 50px;
+    background: #883f35;
+    top: 100%;
+    left: 0;
+    margin-top: 10px;
+} 
+
+.beneficios{
+    margin-bottom: 20%;
+}
+
+.beneficios ul{
+    display: inline-block;
+    vertical-align: top;
+}
+.beneficios ul li{
+    font-size: 28px;
+}
+
+.beneficios img{
+    width: 30%;
+    position: absolute;
+    right: 20%;
+    z-index: -1; /* especifica a ordem do elemento, ficando atrás da barra de navegação */
+}
+
+footer{
+    text-align: center;
+    background: url("../imagens/bg.jpg");
+    margin-top: auto;
+    color: white;
+}
+
+footer p{
+    font-size: 20px;
+    padding-bottom: 2%;
+}
+
+@media screen and (max-width: 540px) {
+  .logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .header{
+    position: relative;;
+  }
+  .banner{
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .ul_cabecalho{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+
+  nav ul li a{
+    display: flex;
+    padding: 0px;
+    font-size: 13px;
+}
+
+nav ul li {
+    padding-right: 8px;
+}
+
+  nav{
+    display: block;
+    padding: 0;
+  }
+
+  .texto-sobre h2:after{
+    margin: -4px;
+}
+
+.container-beneficios img{
+    display: none;
+}
+
+}

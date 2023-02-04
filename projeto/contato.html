@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width"> <!-- entender e adaptar o site para celular -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Barbearia Alura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-contato.css">
+    <link rel="stylesheet" href="style-produtos.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="hero">
+            <nav>
+                <img class="logo" src="../imagens/logo-branco.png" alt="">
+                <ul class="ul_cabecalho">
+                    <li><a href="index.html" class="ancora">Home</a></li>
+                    <li><a href="produtos.html"class="ancora">Produtos</a></li>
+                    <li><a href="contato.html" class="ancora">Contatos</a></li>
+                    <li><a href="localicacao.html" class="ancora">Localização</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <img class="banner" src="../imagens/banner2.png" alt="Imagem de uma barbearia">
+    <main class="div-completa">
+
+       
+        
+        <div class="formulario">
+            <p class="div-p">Formulário para Contato</p>
+            <form>
+                <div>
+                    <label  class="label-padrao" for="nome">Nome</label>
+                    <input required class="input-padrao" type="text" id="nome" placeholder="Digite o seu nome"/>
+                </div>
+                <div>
+                    <label class="label-padrao" for="email">Email</label>
+                    <input  required class="input-padrao" type="email" id="email" placeholder="Digite o seu email"/>
+                </div>
+                <div>
+                    <label class="label-padrao" for="nome">Telefone</label>
+                    <input requiered class="input-padrao" type="tel" id="telefone" placeholder="(XX) XXXXX-XXXX"/>
+                </div>
+                <div>
+                    <label class="label-padrao" for="mesagem" id="mensagem">Mensagem</label>
+                    <textarea requiered class="input-padrao" cols="70" rows="10"></textarea>
+                </div>
+
+                <div class="horario">
+                    <p>Qual horário prefere ser atendido?</p>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </div>
+
+                <div class="div-contato">
+                    <p>Como prefere o contato?</p>
+                    
+                    <div class="div-contatinho">
+                        <input type="radio" id="radio-email" value="email" name="contato" />
+                        <label for="radio-email">Email</label>
+                    </div>
+                   
+                    <div    class="div-contatinho">
+                        <input type="radio" id="radio-telefone" name="contato" value="telefone"/>
+                        <label for="radio-telefone">Telefone</label>
+                    </div>
+                    
+                    <div    class="div-contatinho">
+                        <input type="radio" id="radio-whatsapp" name="contato" value="whatsapp"/>       
+                        <label for="radio-whatsapp">Whatsapp</label>
+                    </div>        
+                </div>
+                <label class="promocao"><input type="checkbox">Receber promoções via Whatsapp</label>
+                <input class="botao" type="submit" value="Enviar Formulário">
+
+            </form>
+        </div>
+        <div class="tabela">
+           <p class="div-p">Horário de atendimento</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="aling-left">Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="aling-left">Segunda</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td class="aling-left">Quarta</td>
+                        <td>7h ~ 18h</td>
+                    </tr>
+                    <tr>
+                        <td class="aling-left">Sexta</td>
+                        <td>9hrs ~ 21hrs</td>
+                    </tr>
+                </tbody>    
+                <tr>
+                    <td  class="class-colspan" colspan="2">Atendemos todos os finais de semana no horário de sexta!</td> 
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <img src="../imagens/logo-branco.png">
+        <p >&copy; Copyright Barbearia Alura - 2019</p>
+
+    </footer>
+</body>
+</html>

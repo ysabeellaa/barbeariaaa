@@ -1,0 +1,123 @@
+.div-completa {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+   
+}
+
+.banner{
+    height: 760px;
+    width:300px;
+    display: block;
+
+}
+.formulario form{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.formulario{
+    font-size: 20px;
+    margin: 40px 10px;
+}
+
+.label-padrao{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 0 0;
+}
+
+.input-padrao{
+    padding: 10px;
+    width: 95%;
+    display: block
+}
+
+.div-contatinho{
+    display: block;
+    padding-bottom: 5px;
+}
+.div-contato{
+    padding: 10px;
+}
+.div-contato p{
+    padding-bottom: 5px;
+}
+.promocao{
+    display: block;
+    padding-bottom: 15px;
+
+    margin: 10px;
+}
+
+.botao{
+    padding: 15px;
+    width: 100%;
+    background: linear-gradient(black, white, black);
+    color: black;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+.botao:hover{
+    background:  linear-gradient(white, black, white);
+    color: white;
+}
+
+.horario p{
+    margin: 12px 0 10px 0;
+}
+
+.horario{
+    margin-bottom: 3px;
+}
+.horario select{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+table{
+    margin: 20px 0 40px;
+    
+}
+.tabela{
+    margin: 40px 10px;
+}
+thead{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+   
+}
+
+th, td{
+    border: 1px solid black;
+    padding:  15px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.div-p{
+   margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.class-colspan{
+   font-size: 16px;
+    font-weight: bold;
+}
+
+.aling-left{
+    text-align: left;
+}
+
+@media screen and (max-width: 540px) {
+    .ul_cabecalho {
+        display: flex;
+        padding: 0;
+    }
+}

@@ -1,0 +1,23 @@
+.div-localizacao {
+    margin: 0 0 2em;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.div-localizacao p{
+    font-size: 25px;
+    margin: 10px 0 20px 0;
+}
+
+.div-localizacao h3{
+    font-size: 30px;
+}
+
+@media screen and (max-width: 540px) {
+    .ul_cabecalho {
+        display: flex;
+        padding: 0;
+    }
+
+}
+
